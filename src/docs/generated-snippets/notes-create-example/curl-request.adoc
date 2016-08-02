@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/notes' -i -X POST -H 'Accept: application/json' -H 'Content-Type: application/json; charset=UTF-8' -d '{ "body": "My test example", "title": "Eureka!", "tags": [{"name": "testing123"}] }'
+----

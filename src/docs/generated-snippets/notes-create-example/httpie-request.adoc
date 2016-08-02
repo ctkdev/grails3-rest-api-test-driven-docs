@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ echo '{ "body": "My test example", "title": "Eureka!", "tags": [{"name": "testing123"}] }' | http POST 'http://localhost:8080/notes' 'Accept:application/json' 'Content-Type:application/json; charset=UTF-8'
+----

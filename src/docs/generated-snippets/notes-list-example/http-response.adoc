@@ -1,0 +1,32 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:development
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 02 Aug 2016 19:35:00 GMT
+Content-Length: 314
+
+[ {
+  "id" : 1,
+  "body" : "My test example",
+  "tags" : [ {
+    "id" : 1
+  } ],
+  "title" : "Eureka!"
+}, {
+  "id" : 2,
+  "body" : "My test example",
+  "tags" : [ {
+    "id" : 2
+  } ],
+  "title" : "Eureka!"
+}, {
+  "id" : 3,
+  "body" : "My test example",
+  "tags" : [ {
+    "id" : 3
+  } ],
+  "title" : "Eureka!"
+} ]
+----

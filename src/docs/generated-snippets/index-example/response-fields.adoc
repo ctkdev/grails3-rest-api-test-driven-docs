@@ -1,0 +1,60 @@
+|===
+|Path|Type|Description
+
+|`message`
+|`String`
+|Welcome to Grails!
+
+|`environment`
+|`String`
+|The running environment
+
+|`appversion`
+|`String`
+|version of the app that is running
+
+|`grailsversion`
+|`String`
+|the version of grails used in this project
+
+|`appprofile`
+|`String`
+|the profile of grails used in this project
+
+|`groovyversion`
+|`String`
+|the version of groovy used in this project
+
+|`jvmversion`
+|`String`
+|the version of the jvm used in this project
+
+|`controllers`
+|`Array`
+|the list of available controllers
+
+|`plugins`
+|`Array`
+|the list of available plugins
+
+|`reloadingagentenabled`
+|`Boolean`
+|whether the reloading agent is enabled in this environment
+
+|`artefacts`
+|`Object`
+|the count of grails artefacts in the system
+
+|`artefacts.controllers`
+|`Number`
+|the count of grails controllers in the system
+
+|`artefacts.domains`
+|`Number`
+|the count of grails domains in the system
+
+|`artefacts.services`
+|`Number`
+|the count of grails services in the system
+
+|===

@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`title`
+|`String`
+|the title of the note
+
+|`body`
+|`String`
+|the body of the note
+
+|`tags`
+|`Array`
+|a list of tags associated to the note
+
+|===

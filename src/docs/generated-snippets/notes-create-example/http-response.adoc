@@ -1,0 +1,19 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:development
+Location: http://localhost:8080/notes/4
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 02 Aug 2016 19:35:00 GMT
+Content-Length: 102
+
+{
+  "id" : 4,
+  "body" : "My test example",
+  "tags" : [ {
+    "id" : 4
+  } ],
+  "title" : "Eureka!"
+}
+----

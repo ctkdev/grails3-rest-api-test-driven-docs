@@ -1,0 +1,91 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+X-Application-Context: application:development
+Content-Type: application/json;charset=UTF-8
+Content-Language: en-US
+Transfer-Encoding: chunked
+Date: Tue, 02 Aug 2016 19:35:00 GMT
+Content-Length: 1744
+
+{
+  "message" : "Welcome to Grails!",
+  "environment" : "development",
+  "appversion" : "0.1",
+  "grailsversion" : "3.2.0.M2",
+  "appprofile" : "rest-api",
+  "groovyversion" : "2.4.7",
+  "jvmversion" : "1.8.0_101",
+  "reloadingagentenabled" : true,
+  "artefacts" : {
+    "controllers" : 3,
+    "domains" : 2,
+    "services" : 1
+  },
+  "controllers" : [ {
+    "name" : "com.example.TagController",
+    "logicalPropertyName" : "tag"
+  }, {
+    "name" : "com.example.NoteController",
+    "logicalPropertyName" : "note"
+  }, {
+    "name" : "grails3.rest.api.test.driven.docs.ApplicationController",
+    "logicalPropertyName" : "application"
+  } ],
+  "plugins" : [ {
+    "name" : "dataBinding",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "restResponder",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "eventBus",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "core",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "jsonView",
+    "version" : "1.1.0.RC1"
+  }, {
+    "name" : "codecs",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "i18n",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "controllers",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "urlMappings",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "interceptors",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "dataSource",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "mimeTypes",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "controllersAsync",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "domainClass",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "converters",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "hibernate",
+    "version" : "6.0.0.M2"
+  }, {
+    "name" : "services",
+    "version" : "3.2.0.M2"
+  }, {
+    "name" : "cache",
+    "version" : "3.0.2"
+  } ]
+}
+----

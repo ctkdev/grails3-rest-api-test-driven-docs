@@ -1,0 +1,10 @@
+[source,http,options="nowrap"]
+----
+POST /notes HTTP/1.1
+Accept: application/json
+Content-Type: application/json; charset=UTF-8
+Host: localhost
+Content-Length: 83
+
+{ "body": "My test example", "title": "Eureka!", "tags": [{"name": "testing123"}] }
+----
